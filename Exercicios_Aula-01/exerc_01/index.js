@@ -1,7 +1,3 @@
-// EXERCICIOS DE SOMA DE NUMERO
-var num1 = 2
-var num2 = 5
+const anoAtual = 2023
 
-var resultado = num1 + num2
-
-        console.log(resultado)
+console.log(anoAtual)
