@@ -10,7 +10,7 @@ function filtrarPalavraInciadaComA(palavras) {
 
     for (let i = 0; i < palavras.length; i++) {
         //variavel que seleciona a palavra que inicia com a letra A e transforma em Maiusculo
-        let primeiraLetra = palavras[i].charAt(0).toUpperCase();    
+        let primeiraLetra = palavras[i].charAt().toUpperCase();    
 
         if (primeiraLetra === 'A') {
             palavraInicadaComA.push(palavras[i]);
