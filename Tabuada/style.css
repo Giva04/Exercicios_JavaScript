@@ -33,7 +33,7 @@ section{
     align-items:center;
 }
 p{
-    width:300px;
+    width:100%;
     
     text-align:center;
 }
@@ -71,7 +71,7 @@ p{
     margin-bottom:25px;
 }
 @media screen and (max-width:1330px) {
-    p{
+    section{
         width:50%;
     }
     .form{
